@@ -24,6 +24,7 @@ app.get('/bilibili/bangumi/:seasonid', require('./routes/bilibili/bangumi'));
 
 
 app.get('/binance/coin/:symbol/:interval', require('./routes/binance/coin-pirce'));
+app.get('/product/hunter/:today', require('./routes/producthunt/today'));
 
 
 app.listen(1200);
